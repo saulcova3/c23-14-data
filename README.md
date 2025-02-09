@@ -116,6 +116,19 @@ Los datos fueron recolectados de pacientes admitidos en el **Hero DMC Heart Inst
 | **CHEST INFECTION**                  | Infección torácica (Sí/No)                        |
 
 ---
+## Análisis y hallazgos clave
+
+---
+
+## 🌐 MODELO E INTERFACES
+
+El modelo de predicción fue entrenado utilizando **Random Forest**, un algoritmo de aprendizaje automático que se adapta muy bien a problemas de clasificación. Este modelo fue seleccionado por ofrecer las mejores métricas en términos de precisión y rendimiento para el conjunto de datos disponible.
+
+Para la interfaz de usuario, utilizamos **Streamlit**, una herramienta que facilita la creación de aplicaciones interactivas de datos de manera rápida y eficiente. Posteriormente, la aplicación fue desplegada en **Render**, lo que permitió que estuviera disponible en línea.
+
+Puedes acceder al modelo y las interfaces a través de la siguiente plataforma:
+
+[Acceder al Modelo y las Interfaces](https://c23-14-data-hospitalia.onrender.com)
 
 
 # 📚 Recursos
