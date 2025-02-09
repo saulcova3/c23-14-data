@@ -1,7 +1,11 @@
-# c23-14-data
-# 📌 Tareas del Proyecto
+# CORAZONADA - Solucíones basadas en Data
 
-- Índice
+Somos el Equipo C23-114-Data y este es nuestro MVP
+
+
+# Descripción y objetivo del proyecto:
+# 
+Situacion inicial
 
 ---
 
