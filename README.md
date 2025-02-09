@@ -23,12 +23,49 @@ Situacion inicial
 - Alcance 4  
 
 ---
+## 📂 Estructura del Proyecto
+
+```bash
+c23-14-data/
+├── data/                  # Conjunto de datos
+├── src/                   # Jupyter notebooks con análisis exploratorio, modelado y interfaces
+├── Presentación/          # Modelo de negocio, tareas del equipo y presentación de venta
+├── Models/                # Modelos entrenados y sus pesos
+├── requirements.txt       # Dependencias del proyecto
+├── README.md              # Documentación del repositorio
+```
+
 
 # 🛠 **Stack de Tecnologías y Herramientas**
 
 (Tecnologías y herramientas a utilizar en el proyecto)
 
+
+
 ---
+| Librería/Herramienta         | Logo | Descripción |
+|------------------------------|------|-------------|
+| **Pandas**                   | 📊  | Librería de Python para manipulación y análisis de datos. |
+| **Matplotlib**               | 📈  | Librería usada para la generación de gráficos en dos dimensiones. |
+| **Seaborn**                  | 📉  | Librería de Python creada sobre Matplotlib, usada para crear gráficos estadísticos. |
+| **Jupyter**                  | 📓  | Software gratuito, estándares abiertos y servicios web para informática interactiva en todos los lenguajes de programación. |
+| **Visual Studio Code**       | 💻  | Editor de código fuente. |
+| **Colaboratory con Python**  | ☁️  | Plataforma de Google basada en Jupyter Notebooks, junto con las librerías de Python para análisis de datos como Pandas y Matplotlib. |
+| **Power BI**                 | 📊  | Herramienta líder en el mercado para crear visualizaciones de datos avanzadas, informes interactivos y paneles de control. |
+| **Canva**                    | 🎨  | Plataforma de diseño gráfico y composición de imágenes. |
+| **PowerPoint**               | 📽️  | Microsoft PowerPoint (PPT) es un software de ofimática diseñado para realizar presentación de diapositivas. |
+| **Python**                   | 🐍  | Lenguaje de programación utilizado para análisis de datos y desarrollo de aplicaciones. |
+| **GitHub**                   | 🛠️  | Plataforma de desarrollo colaborativo para proyectos de software. |
+| **Draw.io**                  | 🖊️  | Software de diagramas en línea gratuito para crear diagramas de flujo, diagramas de procesos, organigramas, UML, ER y diagramas de red. |
+| **Google Drive**             | ☁️  | Servicio de alojamiento y sincronización de archivos. |
+| **Streamlit**                | 🚀  | Herramienta de código abierto diseñada para crear aplicaciones web interactivas y visualizaciones de datos de manera rápida y sencilla utilizando Python. |
+
+---
+
+
+
+
+
 
 # 📈 **Metodología de Gestión de Proyectos**
 
