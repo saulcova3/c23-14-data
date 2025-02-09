@@ -114,3 +114,44 @@ c23-14-data/
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+
+
+
+## 👥 Equipo
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="URL_IMAGEN_PABLO" width="150" height="150" alt="Pablo Luberriaga"><br>
+      <strong>Pablo Luberriaga</strong><br>
+      <a href="https://www.linkedin.com/in/pabloluberriaga/">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20">
+      </a>
+      <a href="https://github.com/pablolube">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20">
+      </a>
+    </td>
+    <td align="center">
+      <img src="URL_IMAGEN_JOSE" width="150" height="150" alt="José"><br>
+      <strong>José</strong><br>
+      <a href="URL_LINKEDIN_JOSE">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20">
+      </a>
+      <a href="URL_GITHUB_JOSE">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="URL_IMAGEN_MARIO" width="150" height="150" alt="Mario"><br>
+      <strong>Mario</strong><br>
+      <a href="URL_LINKEDIN_MARIO">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20">
+      </a>
+      <a href="URL_GITHUB_MARIO">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20">
+      </a>
+    </td>
+  </tr>
+</table>
