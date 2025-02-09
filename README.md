@@ -1,29 +1,21 @@
-# CORAZONADA - Solucíones basadas en Data
+# CORAZONADA - Soluciones basadas en Datos
 
-Somos el Equipo C23-114-Data y este es nuestro MVP
+¡Bienvenido al proyecto **C23-114-Data**! Este es nuestro MVP (Producto Mínimo Viable) para mejorar la gestión hospitalaria a través del análisis de datos.
+
+## 🚀 Instalación y Configuración
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/No-Country-simulation/c23-14-data.git
 
 
-# Descripción y objetivo del proyecto:
-# 
-Situacion inicial
 
----
-
-# 📖 **Descripción del Proyecto**
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
----
-
-# 🎯 **Alcance del Proyecto**
-
-- Alcance 1  
-- Alcance 2  
-- Alcance 3  
-- Alcance 4  
 
 ---
-## 📂 Estructura del Proyecto
+# 📂 Estructura del respositorio
+---
 
 ```bash
 c23-14-data/
@@ -34,13 +26,109 @@ c23-14-data/
 ├── requirements.txt       # Dependencias del proyecto
 ├── README.md              # Documentación del repositorio
 ```
+# 📝 Descripción y Objetivo del Proyecto
+## Situación Inicial
+Los hospitales y centros de salud  enfrentan dificultades para gestionar el flujo de pacientes, especialmente en áreas críticas como la cardiología. La falta de previsión en el proceso de altas puede ocasionar:
+
+- Sobrecarga en los recursos hospitalarios.
+- Prolongación innecesaria de la hospitalización.
+- Decisiones poco informadas que afectan la eficiencia y calidad del servicio.
+  
+Esto resulta en costos adicionales, planificación deficiente de altas y uso ineficiente de los recursos. Además, la alta subjetividad en el proceso de altas puede derivar en altas prematuras o inapropiadas, lo que aumenta el riesgo de reingresos hospitalarios, complicaciones posteriores e incluso fallecimientos.
+
+Estos reingresos innecesarios no solo afectan la salud de los pacientes, sino que también contribuyen a la sobrecarga del sistema de salud.
+
+## Objetivo General
+El proyecto busca desarrollar un sistema básico que ofrezca una predicción preliminar de las altas de pacientes, utilizando un modelo de inteligencia artificial entrenado con datos históricos de pacientes cardiológicos. El objetivo es mejorar la gestión hospitalaria, optimizar los recursos y reducir los reingresos innecesarios
+
+---
+
+
+# ETAPAS 
+
+## Datos
+Los datos fueron recolectados de pacientes admitidos en el **Hero DMC Heart Institute**, Ludhiana, Punjab, India, entre el **1 de abril de 2017** y el **31 de marzo de 2019**. El conjunto de datos incluye:
+
+- **14,845** ingresos de **12,238** pacientes
+- **1,921** pacientes con múltiples ingresos
+
+**Enlace del conjunto de datos**: [Hospital Admissions Data](https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data?select=table_headings.csv)
+
+## Diccionario de Datos
+
+| **Campo**                            | **Descripción**                                   |
+|--------------------------------------|---------------------------------------------------|
+| **SNO**                              | Número de serie del paciente                       |
+| **MRD No.**                          | Número de admisión del paciente                    |
+| **D.O.A**                            | Fecha de admisión                                 |
+| **D.O.D**                            | Fecha de alta                                    |
+| **AGE**                              | Edad del paciente                                 |
+| **GENDER**                           | Género del paciente                               |
+| **RURAL**                            | Indicador de localidad (Rural (R) / Urbano (U))   |
+| **TYPE OF ADMISSION**                | Tipo de admisión (Emergencia / OPD)               |
+| **month year**                       | Mes y año de la admisión                          |
+| **DURATION OF STAY**                 | Duración de la estadía                            |
+| **duration of intensive unit stay**  | Duración de la estadía en la unidad intensiva     |
+| **OUTCOME**                          | Resultado del tratamiento (Ej. Recuperado)        |
+| **SMOKING**                          | Indicador de si el paciente fuma (Sí/No)          |
+| **ALCOHOL**                          | Indicador de si el paciente consume alcohol (Sí/No)|
+| **DM**                               | Diabetes Mellitus (Sí/No)                         |
+| **HTN**                              | Hipertensión (Sí/No)                              |
+| **CAD**                              | Enfermedad Arterial Coronaria (Sí/No)             |
+| **PRIOR CMP**                        | Miocardiopatía previa (Sí/No)                     |
+| **CKD**                              | Enfermedad Renal Crónica (Sí/No)                  |
+| **HB**                               | Niveles de Hemoglobina                            |
+| **TLC**                              | Conteo total de leucocitos                        |
+| **PLATELETS**                        | Conteo de plaquetas                               |
+| **GLUCOSE**                          | Niveles de glucosa                                |
+| **UREA**                              | Niveles de urea                                  |
+| **CREATININE**                       | Niveles de creatinina                             |
+| **BNP**                               | Péptido natriurético tipo B                       |
+| **RAISED CARDIAC ENZYMES**           | Enzimas cardíacas elevadas                        |
+| **EF**                               | Fracción de eyección (Ejection Fraction)          |
+| **SEVERE ANAEMIA**                   | Indicador de anemia severa (Sí/No)                |
+| **ANAEMIA**                          | Indicador de anemia (Sí/No)                       |
+| **STABLE ANGINA**                    | Angina estable (Sí/No)                            |
+| **ACS**                              | Síndrome coronario agudo (Sí/No)                  |
+| **STEMI**                            | Infarto de miocardio con elevación del ST (Sí/No) |
+| **ATYPICAL CHEST PAIN**              | Dolor torácico atípico (Sí/No)                    |
+| **HEART FAILURE**                    | Insuficiencia cardíaca (Sí/No)                    |
+| **HFREF**                            | Insuficiencia cardíaca con fracción de eyección reducida |
+| **HFNEF**                            | Insuficiencia cardíaca con fracción de eyección normal |
+| **VALVULAR**                         | Enfermedad valvular (Sí/No)                       |
+| **CHB**                              | Bloqueo cardíaco completo (Sí/No)                 |
+| **SSS**                              | Síndrome de seno enfermo (Sí/No)                  |
+| **AKI**                              | Lesión renal aguda (Sí/No)                        |
+| **CVA INFRACT**                      | Infarto cerebrovascular (Sí/No)                   |
+| **CVA BLEED**                        | Sangrado cerebrovascular (Sí/No)                  |
+| **AF**                               | Fibrilación auricular (Sí/No)                     |
+| **VT**                               | Taquicardia ventricular (Sí/No)                   |
+| **PSVT**                             | Taquicardia supraventricular paroxística (Sí/No)  |
+| **CONGENITAL**                       | Enfermedad cardíaca congénita (Sí/No)             |
+| **UTI**                              | Infección del tracto urinario (Sí/No)             |
+| **NEURO CARDIOGENIC SYNCOPE**        | Síncope neurocardiogénico (Sí/No)                 |
+| **ORTHOSTATIC**                      | Hipotensión ortostática (Sí/No)                   |
+| **INFECTIVE ENDOCARDITIS**           | Endocarditis infecciosa (Sí/No)                   |
+| **DVT**                              | Trombosis venosa profunda (Sí/No)                 |
+| **CARDIOGENIC SHOCK**                | Shock cardiogénico (Sí/No)                        |
+| **SHOCK**                            | Shock (Sí/No)                                     |
+| **PULMONARY EMBOLISM**               | Embolia pulmonar (Sí/No)                          |
+| **CHEST INFECTION**                  | Infección torácica (Sí/No)                        |
+
+---
+
+
+# 📚 Recursos
+- **Modelo de negocio**: [Presentación de ventas](./Presentación)
+- **Análisis exploratorio de datos**: Jupyter Notebooks en la carpeta `src/`
+- **Modelos entrenados**: Encuentra los modelos en la carpeta `Models/`
+
+
 
 
 # 🛠 **Stack de Tecnologías y Herramientas**
 
 (Tecnologías y herramientas a utilizar en el proyecto)
-
-
 
 ---
 
@@ -132,55 +220,6 @@ c23-14-data/
 
 
 
-
-
-
-# 📈 **Metodología de Gestión de Proyectos**
-
-- Paso 1  
-- Paso 2  
-- Paso 3  
-- Paso 4  
-
----
-
-# 🚀 **Etapas del Proyecto**
-
-## 1️⃣ Definición de Problemática y Recolección de Datos
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2e76dfe8-00e3-4720-addd-e7781dbd6a72/5332f50b-0769-41d0-8194-57afd59794fa/image.png)
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
----
-
-## 2️⃣ Data Cleaning
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
----
-
-## 3️⃣ Análisis Exploratorio (EDA)
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
----
-
-## 4️⃣ Visualización de Datos
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
----
-
-## 5️⃣ Entrenamiento y Evaluación del Modelo Predictivo
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
----
-
-## 6️⃣ Presentación de Resultados
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 
