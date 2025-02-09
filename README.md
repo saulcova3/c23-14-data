@@ -122,34 +122,35 @@ c23-14-data/
 <table>
   <tr>
     <td align="center">
-      <img src="URL_IMAGEN_PABLO" width="150" height="150" alt="Pablo Luberriaga"><br>
+      <img src="https://avatars.githubusercontent.com/u/123048093?s=400&u=50613e4d8debc804f14d21504c9db1ad60edf0c5&v=4" width="150" height="150" alt="Pablo Luberriaga"><br>
       <strong>Pablo Luberriaga</strong><br>
-      <a href="https://www.linkedin.com/in/pabloluberriaga/">
+      <em>Data Analyst</em><br>
+      <a href="https://www.linkedin.com/in/pabloluberriaga/" target="_blank">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20">
       </a>
-      <a href="https://github.com/pablolube">
+      <a href="https://github.com/pablolube" target="_blank">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20">
       </a>
     </td>
     <td align="center">
-      <img src="URL_IMAGEN_JOSE" width="150" height="150" alt="José"><br>
-      <strong>José</strong><br>
-      <a href="URL_LINKEDIN_JOSE">
+      <img src="https://avatars.githubusercontent.com/u/176251377?v=4" width="150" height="150" alt="Estefania Garrido"><br>
+      <strong>Estefanía Garrido</strong><br>
+      <em>Data Scientist</em><br>
+      <a href="https://www.linkedin.com/in/estefan%C3%ADa-garridoz/" target="_blank">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20">
       </a>
-      <a href="URL_GITHUB_JOSE">
+      <a href="https://github.com/Estefaniagz" target="_blank">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20">
       </a>
     </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="URL_IMAGEN_MARIO" width="150" height="150" alt="Mario"><br>
-      <strong>Mario</strong><br>
-      <a href="URL_LINKEDIN_MARIO">
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/145939303?v=4" width="150" height="150" alt="Saúl Cova"><br>
+      <strong>Saúl Cova</strong><br>
+      <em>Data Scientist</em><br>
+      <a href="https://www.linkedin.com/in/sa%C3%BAl-cova-008830145" target="_blank">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20">
       </a>
-      <a href="URL_GITHUB_MARIO">
+      <a href="https://github.com/saulcova3" target="_blank">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20">
       </a>
     </td>
